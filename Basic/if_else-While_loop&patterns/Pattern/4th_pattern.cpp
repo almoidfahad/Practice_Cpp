@@ -9,9 +9,9 @@ int main()
     while (row <= n)
     {
         int col = 1;
-        while (col <= n)
+        while (col <= row)
         {
-            cout << col << " ";
+            cout << "*";
             col = col + 1;
         }
         cout << endl;
@@ -22,9 +22,10 @@ int main()
 
 n = 5
 
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-*/
+*
+**
+***
+****
+*****
+
+ */

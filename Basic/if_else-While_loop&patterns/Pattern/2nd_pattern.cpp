@@ -11,7 +11,7 @@ int main()
         int col = 1;
         while (col <= n)
         {
-            cout << col << " ";
+            cout << n - col + 1 << " ";
             col = col + 1;
         }
         cout << endl;
@@ -22,9 +22,9 @@ int main()
 
 n = 5
 
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
 */

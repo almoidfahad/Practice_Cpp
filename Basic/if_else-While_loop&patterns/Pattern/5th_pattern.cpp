@@ -9,22 +9,22 @@ int main()
     while (row <= n)
     {
         int col = 1;
-        while (col <= n)
+        while (col <= row)
         {
-            cout << col << " ";
+            cout << row << " ";
             col = col + 1;
         }
         cout << endl;
         row = row + 1;
     }
 }
-/*Output
-
+/* Output
 n = 5
 
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
 */
