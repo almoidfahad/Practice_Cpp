@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main()
 {
     int n;
@@ -10,9 +9,10 @@ int main()
     while (row <= n)
     {
         int col = 1;
+
         while (col <= n)
         {
-            char ch = 'A' + row - 1;
+            char ch = 'A' + col - 1;
             cout << ch << " ";
             col = col + 1;
         }
@@ -20,13 +20,13 @@ int main()
         row = row + 1;
     }
 }
-/* Output
-n = 5
+/*Output
+5
 
-A A A A A
-B B B B B
-C C C C C
-D D D D D
-E E E E E
+A B C D E
+A B C D E
+A B C D E
+A B C D E
+A B C D E
 
 */
